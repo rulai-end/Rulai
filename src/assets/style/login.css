@@ -1,0 +1,31 @@
+.login {
+  width: 90%;
+  margin: .5rem auto;
+  padding: .4rem;
+  border: #dddddd 1px solid;
+  background-color: #FFF;
+  border-radius: 3px;
+  box-sizing: border-box; }
+  .login .login-head {
+    font-size: .4rem;
+    margin-bottom: .5rem; }
+  .login .inp {
+    border-radius: .1rem;
+    border: #dddddd 1px solid;
+    margin: .3rem 0; }
+    .login .inp img {
+      width: 3.2rem; }
+  .login .btn {
+    background-image: linear-gradient(90deg, #ffb821 0, #ff5c38 45%, #ff1459);
+    border: none;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.3); }
+  .login .forget-pwd {
+    margin: .3rem 0;
+    text-align: center;
+    color: #808080; }
+  .login .reg {
+    margin: .3rem 0;
+    text-align: center;
+    color: #0088dd; }
+
+/*# sourceMappingURL=login.css.map */

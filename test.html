@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let iterator = (item)=>{
+            let iter = {
+                index:0,
+                max: item.length,
+                next: function(){
+                    return this.index === this.max ? {value:undefined,done: true}: {value: item[this.index++],done: false};
+                }
+            }
+            return iter;
+        }
+
+        let iter = iterator([1,2,3,4,5,6]);
+
+        let result = null;
+        do{
+            result = iter.next();
+            console.log(result);
+        }while(!result.done);
+    </script>
+</body>
+</html>
